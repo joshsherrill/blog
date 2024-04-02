@@ -4,16 +4,23 @@
 
 @import "minima";
 
-body{
-    background-color: #efefef;
-}
-
-a, a:visited{
-    color:#2f2f2f;
-}
-
 code{
     background-color: #dfdfdf;
+    font-family: 'Courier Prime', monospace;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.pagination em{
+    font-weight: 900;
+    color: #080808;
+    text-decoration: underline;
 }
 
 .highlighter-rouge .highlight{ 
@@ -45,6 +52,10 @@ code{
     margin-right: 10px;
 }
 
+.social-media-list li:last-child {
+    margin-right: 0;
+}
+
 .social-media-list svg{
     height: 40px;
     width: 40px;
@@ -66,6 +77,13 @@ code{
     margin-bottom: 8px;
 }
 
-.svg-icon{
-    fill: #2f2f2f;
+@media screen and (max-width: 768px) {
+
+    /* Adjust the max-width as needed */
+    .logo {
+        margin-left: 8px;
+        /* Adjust as needed */
+    }
 }
+
+
