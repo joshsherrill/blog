@@ -646,4 +646,68 @@ table td {
   color: #099;
 }
 
+body {
+  background-color: #efefef;
+}
+
+a, a:visited {
+  color: #2f2f2f;
+}
+
+code {
+  background-color: #dfdfdf;
+}
+
+.highlighter-rouge .highlight {
+  background-color: #dfdfdf;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.site-nav {
+  margin-left: auto;
+}
+
+.site-header {
+  border: none;
+}
+
+.site-footer {
+  border: none;
+}
+
+.footer-wrapper {
+  text-align: center;
+}
+
+.social-media-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-list svg {
+  height: 40px;
+  width: 40px;
+  fill: #2f2f2f;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.post-meta {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.post-title {
+  margin-bottom: 8px;
+}
+
+.svg-icon {
+  fill: #2f2f2f;
+}
+
 /*# sourceMappingURL=main.css.map */

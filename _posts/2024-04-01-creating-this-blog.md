@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Jekyll & GitHub Pages to Host a Blog"
-categories: dev
+tag: Web Dev
 author: "Josh Sherrill"
 meta: "Jekyll, GitHub Pages, Bunny.net"
 ---
