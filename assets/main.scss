@@ -31,6 +31,9 @@ code{
 
 .site-nav {
     margin-left: auto;
+    position: relative;
+    top: auto;
+    right: auto;
 }
 
 .site-header{
@@ -44,8 +47,6 @@ code{
 .footer-wrapper{
     text-align: center;
 }
-
-
 
 .social-media-list li {
     display: inline-block;

@@ -673,6 +673,9 @@ code {
 
 .site-nav {
   margin-left: auto;
+  position: relative;
+  top: auto;
+  right: auto;
 }
 
 .site-header {
