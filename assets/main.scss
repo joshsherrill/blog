@@ -78,6 +78,20 @@ code{
     margin-bottom: 8px;
 }
 
+.project-title{
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
+.project-link, .project-link a, .project-link a:visited{
+    color: $grey-color;
+    font-style: italic;
+}
+
+.project-description{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
 @media screen and (max-width: 768px) {
 
     /* Adjust the max-width as needed */
